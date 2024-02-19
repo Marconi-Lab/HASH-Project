@@ -22,7 +22,7 @@ This project aims to develop a machine learning (ML)-aided platform for point-of
 7. Receive risk assessments and recommendations based on ML analysis.
 
 ## Contributors
-Marconi Lab@MAK. [Marconi Lab](https://marconilab.org/)
+[Marconi Lab@MAK](https://marconilab.org/)
 
 ## Acknowledgements
 Special thanks to HASH for their support and collaboration on this project.
