@@ -10,14 +10,16 @@ This project aims to develop a machine learning (ML)-aided platform for point-of
 - Integration with existing healthcare systems for seamless adoption.
 
 ## Installation
-1. Clone the repository:
-2. Install dependencies:
+1. Install dependencies in requirements.txt
 
 ## Usage
-1. Run the platform:
-2. Access the platform through your web browser at `http://localhost:7777`.
-3. Upload 2D ultrasound images for analysis.
-4. Receive risk assessments and recommendations based on ML analysis.
+1. Run the training script "train.py" while using MLFlow for model logging & tracking.
+2. Use MLFlow to Register the best trained model and transition it production stage.
+3. Run the CMD: !mlflow models serve --model-uri models:/{model_name}/production -p 7777 --no-conda to create a model serving endpoint.
+4. Access the model endpoint through your web browser at `http://localhost:7777/invocations`.
+5. Run the dashboard using 'streamlit run streamlit_dashboard.py'
+6. Upload 2D ultrasound images for analysis.
+7. Receive risk assessments and recommendations based on ML analysis.
 
 ## Contributors
 - Ronald Omoding (ronaldomoding130@gmail.com)
