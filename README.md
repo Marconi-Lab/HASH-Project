@@ -15,16 +15,12 @@ This project aims to develop a machine learning (ML)-aided platform for point-of
 
 ## Usage
 1. Run the platform:
-2. Access the platform through your web browser at `http://localhost:5000`.
+2. Access the platform through your web browser at `http://localhost:7777`.
 3. Upload 2D ultrasound images for analysis.
 4. Receive risk assessments and recommendations based on ML analysis.
 
 ## Contributors
-- John Doe (@john_doe)
-- Jane Smith (@jane_smith)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Ronald Omoding (ronaldomoding130@gmail.com)
 
 ## Acknowledgements
-Special thanks to [Organization/Institution] for their support and collaboration on this project.
+Special thanks to HASH for their support and collaboration on this project.
