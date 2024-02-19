@@ -13,8 +13,8 @@ This project aims to develop a machine learning (ML)-aided platform for point-of
 1. Install dependencies in requirements.txt
 
 ## Usage
-1. Run the training script "train.py" while using MLFlow for model logging & tracking.
-2. Use MLFlow to Register the best trained model and transition it production stage.
+1. Run the training script "train.py" to use MLFlow for model logging & tracking.
+2. train.py also uses MLFlow to register the best trained model and transition it production stage.
 3. Run the CMD: !mlflow models serve --model-uri models:/{model_name}/production -p 7777 --no-conda to create a model serving endpoint.
 4. Access the model endpoint through your web browser at `http://localhost:7777/invocations`.
 5. Run the dashboard using 'streamlit run streamlit_dashboard.py'
