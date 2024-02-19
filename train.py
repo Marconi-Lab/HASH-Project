@@ -8,7 +8,7 @@ model_version = 1
 run_name = datetime.now().strftime("%Y%m%d_%H%M%S")
 
 # Specify tracking server 
-mlflow.set_tracking_uri("http://localhost:5000")
+mlflow.set_tracking_uri("http://localhost:7777")
 
 # Set the experiment name and create an MLflow run
 mlflow.set_experiment(experiment_name)
